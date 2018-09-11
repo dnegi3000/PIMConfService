@@ -1,0 +1,17 @@
+security:
+  basic:
+    enabled:false
+management:
+  security:
+    enabled:false
+spring:
+  output:
+    ansi:
+      enabled:always
+  data:
+    mongodb:
+      uri:mongodb://127.0.0.1:27017/test
+      host:127.0.0.1
+      port:27017
+key:
+  test: This is the test configuration value
