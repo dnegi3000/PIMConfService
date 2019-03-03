@@ -1,10 +1,12 @@
 server:
   port: 8888
 spring:
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          searchLocations: D:/myproj/myworkspace/PIMConfSvr/src/main/resources/config
+        git:
+          uri: https://github.com/dnegi3000/PIMConfService/
+          searchPaths: src/main/resources/config
+          username: dnegi3000
+          password: 
+          

@@ -1,0 +1,11 @@
+#Remove this line and remove _bak from  file  : The config values in the file system.
+server:
+  port: 8888
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: D:/myproj/myworkspace/PIMConfSvr/src/main/resources/config
